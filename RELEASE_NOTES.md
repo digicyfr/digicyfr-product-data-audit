@@ -6,7 +6,7 @@ Merchant-selected, read-only WooCommerce product-field checks; bounded manual sc
 
 ## Requirements and tested stack
 
-Requires WordPress 7.1+, PHP 8.3+ and InnoDB. WordPress 7.1, PHP 8.3.33, MariaDB 11.4.13, WooCommerce 8.9.0 and 11.2.2 with HPOS on and off. Browser keyboard and 390px checks passed. Manual screen-reader and real-merchant validation are outstanding.
+Requires WordPress 7.1+, PHP 8.3+ and InnoDB. WordPress 7.1, PHP 8.3.33, MariaDB 11.4.13, WooCommerce 8.9.0 and 11.2.2 with HPOS on and off passed integration and GitHub release-branch CI. The exact GitHub ZIP passed a post-tag Chromium scan, current report, guarded CSV, rule-change invalidation and 390px check on WooCommerce 11.2.2/HPOS. Manual screen-reader and real-merchant validation are outstanding.
 
 ## Known limits
 

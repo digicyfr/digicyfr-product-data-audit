@@ -1,4 +1,4 @@
-# Local QA — 0.1.0
+# QA — 0.1.0
 
 ## Current GitHub repository candidate (2026-11-05)
 
@@ -6,8 +6,8 @@
 - SHA-256: `8268f9d137fe5dfe0574110b3d8441049a5e22d7528df08aec5fe0bfc541f25e`
 - The new repository snapshot adds a per-plugin GitHub `Plugin URI`, updates packaged README instructions, and adds standalone build/verification tools, Docker harness, CI, contribution/security policies and release notes outside the ZIP. Scanner, storage, authorization and admin behavior are unchanged.
 - Both standalone and workspace `verify_zip.py --against-source` passed on this ZIP; its `.sha256` sidecar passed. PHP and JavaScript syntax checks passed.
-- Fresh disposable WordPress 7.1/PHP 8.3.33 exact-ZIP install, activation/deactivation/reactivation, and catalog integration passed with WooCommerce 8.9.0/legacy storage and 11.2.2/HPOS. The intentional missing-table fault printed a WordPress database error before the test passed. CI runs the 8.9.0 and 11.2.2 × legacy/HPOS matrix; that matrix has not yet run on GitHub. Manual screen-reader and real-merchant validation remain outstanding.
-- The browser and Plugin Check results below were collected on the earlier candidate hash; they were not rerun on the current packaged README/header revision. GitHub Actions has not yet run because the repository is not published.
+- Fresh disposable WordPress 7.1/PHP 8.3.33 exact-ZIP install, activation/deactivation/reactivation, and catalog integration passed with WooCommerce 8.9.0/legacy storage and 11.2.2/HPOS. The intentional missing-table fault printed a WordPress database error before the test passed. GitHub [release-branch CI](https://github.com/digicyfr/digicyfr-product-data-audit/actions/runs/41985999725) passed the 8.9.0 and 11.2.2 × legacy/HPOS matrix. Manual screen-reader and real-merchant validation remain outstanding.
+- The older browser and Plugin Check results below were collected on the earlier candidate hash; the current GitHub ZIP received the post-tag browser check recorded below. Plugin Check was not rerun on the final packaged README/header revision.
 
 ## Earlier candidate evidence (ZIP SHA-256 8eb8f9022db9b675383a46dba825508a08af807ed17409c832c46402621561e2)
 
@@ -30,9 +30,19 @@
 - Root's Chromium check on this exact ZIP hash passed: keyboard selection of suggested rules, seven bounded manual batches to Complete, current findings, CSV download with formula protection, old-policy invalidation after rule changes, and no page overflow at a 390px viewport. The installed ZIP inside the disposable container matched the SHA-256 above.
 - Controls use native buttons, links, labels, notices, and keyboard focus handling. A screen-reader session has not been run.
 
+## Post-tag browser check on the exact GitHub ZIP
+
+On 2026-11-05, the public `v0.1.0` ZIP and sidecar were downloaded from GitHub and passed `sha256sum --check` at the current hash above. The ZIP installed, activated, deactivated and reactivated on a new disposable WordPress 7.1/PHP 8.3.33/MariaDB 11.4.13 site with WooCommerce 11.2.2 and HPOS authoritative. Chromium 156.0.8078.4 exercised the synthetic catalog fixture:
+
+- Accepted the optional suggested rules, started a scan and completed it in seven bounded batches. The current report showed 69 selected-field findings, including the known blank physical product. [Current report](evidence/0.1.0/current-report.png).
+- Downloaded the guarded CSV and found the expected blank product and formula-shaped synthetic product name. Changed one rule; the complete report became historical and the current CSV action disappeared. [Historical report](evidence/0.1.0/historical-report.png).
+- At 390px, the document width equalled the viewport width. A fresh targeted mobile run completed without page errors. [390px view](evidence/0.1.0/390px-view.png).
+
+Only synthetic catalog data was used. The disposable containers and volumes were removed. A human screen-reader pass and merchant-approved staging catalog check remain open; the browser run does not establish behavior on the merchant's theme or extensions.
+
 ## Scope and release limits
 
 - All rules are merchant selected and off by default. A complete report is a best-effort snapshot, not proof that the catalog stayed unchanged. Unsupported registered product types are counted, not inspected; unregistered types are outside that count. Findings are never auto-fixed.
 - A scan is manual and bounded. The integration fixture exercises retry replacement and sequential resumes; it does not reproduce two simultaneous HTTP Continue requests. Runtime concurrency uses an InnoDB run-row lock and a database advisory lock for Start.
 - The plugin does not access orders or customers, call a remote service, or provide a storefront, feed, SEO, shipping, tax, or sales verdict. Reports may contain product names and SKUs; only users with `manage_woocommerce` can access them.
-- No digicyfr.com publication, GitHub release, WordPress.org submission, or live-site installation was performed.
+- A public GitHub prerelease exists. No digicyfr.com production publication, WordPress.org submission or live customer-site installation was performed.
