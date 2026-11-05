@@ -1,6 +1,6 @@
 # QA — 0.1.0
 
-## Current GitHub repository candidate (2026-11-05)
+## Current GitHub release artifact (2026-11-05)
 
 - ZIP: `dist/digicyfr-product-data-audit-0.1.0.zip`
 - SHA-256: `8268f9d137fe5dfe0574110b3d8441049a5e22d7528df08aec5fe0bfc541f25e`
@@ -45,10 +45,14 @@ Only synthetic catalog data was used. The disposable containers and volumes were
 - All rules are merchant selected and off by default. A complete report is a best-effort snapshot, not proof that the catalog stayed unchanged. Unsupported registered product types are counted, not inspected; unregistered types are outside that count. Findings are never auto-fixed.
 - A scan is manual and bounded. The integration fixture exercises retry replacement and sequential resumes; it does not reproduce two simultaneous HTTP Continue requests. Runtime concurrency uses an InnoDB run-row lock and a database advisory lock for Start.
 - The plugin does not access orders or customers, call a remote service, or provide a storefront, feed, SEO, shipping, tax, or sales verdict. Reports may contain product names and SKUs; only users with `manage_woocommerce` can access them.
-- A public GitHub prerelease exists. No digicyfr.com production publication, WordPress.org submission or live customer-site installation was performed.
+- A public GitHub stable release exists for self-hosted installation. No digicyfr.com production publication, WordPress.org submission or live customer-site installation was performed.
 
 ## Automated accessibility audit on the public ZIP — 2026-11-05
 
 The exact public ZIP and SHA sidecar above were verified again and installed on a fresh disposable WordPress 7.1 / PHP 8.3.33 / WooCommerce 11.2.2 site with synthetic catalog products. Chromium 156.0.8078.4 and axe-core 4.10.3 ran WCAG 2/2.1/2.2 A/AA rule tags on the initial rules screen and a completed 71-finding report. Both plugin regions and the full completed report had **zero axe violations**, matching the WordPress Dashboard baseline. At 390px the report document width was 390px. Keyboard Tab moved between adjacent rule checkboxes, whose names were present in Chromium's accessibility tree. See [machine-readable audit evidence](evidence/0.1.0/axe-2026-11-05.json).
 
 This automated check did not find a plugin-owned defect, so the `v0.1.0` ZIP, tag, and release branch were not changed. A human screen-reader pass and representative merchant catalog review remain open.
+
+## Stable self-hosted release decision — 2026-11-05
+
+The exact public ZIP passed the published SHA-256 sidecar check (`8268f9d137fe5dfe0574110b3d8441049a5e22d7528df08aec5fe0bfc541f25e`) and source-byte comparison. The protected `release/0.1.0` branch and annotated `v0.1.0` tag point to the same frozen release commit, and their CI passed. Main-branch CI and the automated browser and axe checks passed before promotion. This supports a stable self-hosted GitHub release. The ZIP, tag, release branch and attached assets were preserved. Human screen-reader testing and review on a representative merchant catalog remain unperformed; axe and browser checks do not establish WCAG conformance.

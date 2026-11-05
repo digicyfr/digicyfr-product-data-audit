@@ -6,7 +6,7 @@ Merchant-selected, read-only WooCommerce product-field checks; bounded manual sc
 
 ## Requirements and tested stack
 
-Requires WordPress 7.1+, PHP 8.3+ and InnoDB. WordPress 7.1, PHP 8.3.33, MariaDB 11.4.13, WooCommerce 8.9.0 and 11.2.2 with HPOS on and off passed integration and GitHub release-branch CI. The exact GitHub ZIP passed a post-tag Chromium scan, current report, guarded CSV, rule-change invalidation and 390px check on WooCommerce 11.2.2/HPOS. Manual screen-reader and real-merchant validation are outstanding.
+Requires WordPress 7.1+, PHP 8.3+ and InnoDB. WordPress 7.1, PHP 8.3.33, MariaDB 11.4.13, WooCommerce 8.9.0 and 11.2.2 with HPOS on and off passed integration and GitHub release-branch CI. The exact GitHub ZIP passed a post-tag Chromium scan, current report, guarded CSV, rule-change invalidation and 390px check on WooCommerce 11.2.2/HPOS. An automated Chromium/axe-core audit found zero WCAG A/AA rule violations in the tested plugin regions and completed report. Browser and axe checks do not certify WCAG conformance; manual screen-reader and real-merchant validation are outstanding.
 
 ## Known limits
 
@@ -22,4 +22,4 @@ Download the versioned ZIP and SHA-256 sidecar from the GitHub release for this 
 
 Source: https://github.com/digicyfr/digicyfr-product-data-audit. Report ordinary bugs through Issues; use [SECURITY.md](SECURITY.md) for private vulnerability reports. The GPL-2.0-or-later license is in [LICENSE](LICENSE). Detailed local QA, including open gates and the exact ZIP hash, is in [docs/QA-0.1.0.md](docs/QA-0.1.0.md).
 
-This release candidate targets Digicyfr/GitHub self-hosted distribution. WordPress.org Plugin Check reports an updater-policy error for the self-hosted `Update URI`, so this package is not a WordPress.org submission.
+This stable release targets Digicyfr/GitHub self-hosted distribution. WordPress.org Plugin Check reports an updater-policy error for the self-hosted `Update URI`, so this package is not a WordPress.org submission.
