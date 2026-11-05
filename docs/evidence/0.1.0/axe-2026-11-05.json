@@ -1,0 +1,44 @@
+{
+  "date_utc": "2026-11-05",
+  "artifact": "exact public GitHub v0.1.0 ZIP; downloaded SHA sidecar passed",
+  "stack": "WordPress 7.1 / PHP 8.3.33 / MariaDB 11.4.13; WooCommerce 11.2.2 for Woo plugins",
+  "browser": "Chromium 156.0.8078.4 via Playwright",
+  "axe_core": "4.10.3",
+  "axe_rules": "wcag2a,wcag2aa,wcag21a,wcag21aa,wcag22aa",
+  "scope": "automated checks only; no human screen-reader session",
+  "sha256": "8268f9d137fe5dfe0574110b3d8441049a5e22d7528df08aec5fe0bfc541f25e",
+  "screens": [
+    {
+      "name": "initial",
+      "scoped_violations": 0,
+      "full_page_violations": 0
+    },
+    {
+      "name": "complete_report",
+      "violations": [],
+      "incomplete": [],
+      "passes": 17,
+      "width": {
+        "viewport": 390,
+        "document": 390
+      }
+    }
+  ],
+  "full_report": {
+    "name": "product",
+    "violations": [],
+    "incomplete": [],
+    "passes": 25,
+    "width": {
+      "viewport": 390,
+      "document": 390
+    }
+  },
+  "keyboard": {
+    "first_rule_to_second_rule": true,
+    "cdp_named_rule_checkboxes": true
+  },
+  "baseline": {
+    "wp_dashboard_full_page_violations": 0
+  }
+}

@@ -46,3 +46,9 @@ Only synthetic catalog data was used. The disposable containers and volumes were
 - A scan is manual and bounded. The integration fixture exercises retry replacement and sequential resumes; it does not reproduce two simultaneous HTTP Continue requests. Runtime concurrency uses an InnoDB run-row lock and a database advisory lock for Start.
 - The plugin does not access orders or customers, call a remote service, or provide a storefront, feed, SEO, shipping, tax, or sales verdict. Reports may contain product names and SKUs; only users with `manage_woocommerce` can access them.
 - A public GitHub prerelease exists. No digicyfr.com production publication, WordPress.org submission or live customer-site installation was performed.
+
+## Automated accessibility audit on the public ZIP — 2026-11-05
+
+The exact public ZIP and SHA sidecar above were verified again and installed on a fresh disposable WordPress 7.1 / PHP 8.3.33 / WooCommerce 11.2.2 site with synthetic catalog products. Chromium 156.0.8078.4 and axe-core 4.10.3 ran WCAG 2/2.1/2.2 A/AA rule tags on the initial rules screen and a completed 71-finding report. Both plugin regions and the full completed report had **zero axe violations**, matching the WordPress Dashboard baseline. At 390px the report document width was 390px. Keyboard Tab moved between adjacent rule checkboxes, whose names were present in Chromium's accessibility tree. See [machine-readable audit evidence](evidence/0.1.0/axe-2026-11-05.json).
+
+This automated check did not find a plugin-owned defect, so the `v0.1.0` ZIP, tag, and release branch were not changed. A human screen-reader pass and representative merchant catalog review remain open.
