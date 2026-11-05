@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digicyfr Product Data Audit 0.1.0\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "%1$d selected-field findings; scan finished %2$s UTC."
+msgstr "%1$d braków w wybranych polach; skan zakończono %2$s UTC."
+
+msgid "A product query, data change, or storage error stopped the scan."
+msgstr "Skan zatrzymał błąd odczytu produktów, zmiana danych lub błąd zapisu."
+
+msgid "A read-only, merchant-selected checklist of empty WooCommerce fields. A finding is not a feed, SEO, tax, or sales verdict. No product is changed."
+msgstr "Lista pustych pól WooCommerce wybranych przez sprzedawcę. Wynik nie jest oceną pliku produktowego, SEO, podatków ani sprzedaży. Żaden produkt nie jest zmieniany."
+
+msgid "Accept suggested starter selection"
+msgstr "Zastosuj proponowany zestaw początkowy"
+
+msgid "Active price"
+msgstr "Aktualna cena"
+
+msgid "Active variation price"
+msgstr "Aktualna cena wariantu"
+
+msgid "All rules begin off. Choose each applicable policy cell yourself. The suggested set is optional and must be accepted explicitly. Changing rules makes the old report historical until a new scan finishes."
+msgstr "Początkowo wszystkie reguły są wyłączone. Wybierz samodzielnie każde wymagane pole. Proponowany zestaw jest opcjonalny i wymaga jawnego zatwierdzenia. Zmiana reguł oznacza stary raport jako historyczny do czasu ukończenia nowego skanu."
+
+msgid "All three dimensions for nonvirtual item"
+msgstr "Trzy wymiary produktu niewirtualnego"
+
+msgid "Another scan action is in progress. Try again."
+msgstr "Trwa inna operacja skanowania. Spróbuj ponownie."
+
+msgid "As scanned"
+msgstr "Jak podczas skanu"
+
+msgid "At least one published variation"
+msgstr "Co najmniej jeden opublikowany wariant"
+
+msgid "CSV could not be written."
+msgstr "Nie udało się zapisać CSV."
+
+msgid "CSV export failed before download. No partial file was sent."
+msgstr "Eksport CSV nie powiódł się przed pobraniem. Nie wysłano niepełnego pliku."
+
+msgid "CSV source could not be read. No partial CSV was sent."
+msgstr "Nie udało się odczytać danych CSV. Nie wysłano niepełnego pliku."
+
+msgid "Cancel incomplete scan"
+msgstr "Anuluj trwający skan"
+
+msgid "Cancellation committed but could not be read. Reload this page."
+msgstr "Anulowanie zapisano, ale nie można odczytać wyniku. Odśwież stronę."
+
+msgid "Catalog totals changed during verification."
+msgstr "Liczebność katalogu zmieniła się podczas weryfikacji."
+
+msgid "Changed since scan"
+msgstr "Zmieniono od skanu"
+
+msgid "Choose the fields you expect"
+msgstr "Wybierz oczekiwane pola"
+
+msgid "Complete"
+msgstr "Ukończony"
+
+msgid "Continue one batch"
+msgstr "Przetwórz jedną partię"
+
+msgid "Could not cancel this scan safely."
+msgstr "Nie udało się bezpiecznie anulować skanu."
+
+msgid "Could not create the scan record."
+msgstr "Nie udało się utworzyć rekordu skanu."
+
+msgid "Could not read findings. The report is unavailable."
+msgstr "Nie udało się odczytać wyników. Raport jest niedostępny."
+
+msgid "Could not read the scan state. Existing reports were retained."
+msgstr "Nie udało się odczytać stanu skanu. Istniejące raporty zachowano."
+
+msgid "Could not start a safe scan transaction."
+msgstr "Nie udało się rozpocząć bezpiecznej transakcji skanu."
+
+msgid "Current findings"
+msgstr "Aktualne wyniki"
+
+msgid "Current source"
+msgstr "Bieżące źródło"
+
+msgid "Download current CSV"
+msgstr "Pobierz aktualny CSV"
+
+msgid "Edit location"
+msgstr "Miejsce edycji"
+
+msgid "Effective dimensions for nonvirtual item"
+msgstr "Efektywne wymiary produktu niewirtualnego"
+
+msgid "Effective quantity when stock is managed"
+msgstr "Efektywna ilość przy zarządzaniu stanem"
+
+msgid "Effective weight for nonvirtual item"
+msgstr "Efektywna waga produktu niewirtualnego"
+
+msgid "Equal totals cannot detect every concurrent catalog edit."
+msgstr "Równe liczebności nie wykrywają każdej równoczesnej zmiany katalogu."
+
+msgid "Export is unavailable or exceeds 20,000 findings. No partial CSV was sent."
+msgstr "Eksport jest niedostępny lub przekracza 20 000 wyników. Nie wysłano niepełnego CSV."
+
+msgid "Export is unavailable."
+msgstr "Eksport jest niedostępny."
+
+msgid "File for downloadable item"
+msgstr "Plik produktu do pobrania"
+
+msgid "File for downloadable variation"
+msgstr "Plik wariantu do pobrania"
+
+msgid "Findings pages"
+msgstr "Strony wyników"
+
+msgid "Finish or cancel the current scan first."
+msgstr "Najpierw ukończ lub anuluj bieżący skan."
+
+msgid "Finished (UTC)"
+msgstr "Zakończono (UTC)"
+
+msgid "Full description"
+msgstr "Pełny opis"
+
+msgid "Historical complete findings"
+msgstr "Historyczne ukończone wyniki"
+
+msgid "Incomplete"
+msgstr "Niepełny"
+
+msgid "Main image"
+msgstr "Obraz główny"
+
+msgid "Missing field"
+msgstr "Brakujące pole"
+
+msgid "Next"
+msgstr "Następna"
+
+msgid "No edit permission or source removed"
+msgstr "Brak uprawnienia do edycji lub źródło usunięte"
+
+msgid "No rules selected. Save at least one rule before starting a scan."
+msgstr "Nie wybrano reguł. Zapisz co najmniej jedną regułę przed skanem."
+
+msgid "No scan has started. An empty rule selection produces no report."
+msgstr "Nie rozpoczęto skanu. Pusty wybór reguł nie tworzy raportu."
+
+msgid "No selected-field gaps were recorded in this as-scanned snapshot."
+msgstr "W tym obrazie katalogu nie zapisano braków w wybranych polach."
+
+msgid "One bounded batch completed."
+msgstr "Ukończono jedną ograniczoną partię."
+
+msgid "One row per selected missing field"
+msgstr "Jeden wiersz na każde wybrane brakujące pole"
+
+msgid "Only the active complete report under the current rules can be exported."
+msgstr "Eksportować można tylko aktywny ukończony raport zgodny z bieżącymi regułami."
+
+msgid "Open parent product editor"
+msgstr "Otwórz edytor produktu nadrzędnego"
+
+msgid "Own variation SKU"
+msgstr "Własne SKU wariantu"
+
+msgid "Page %1$d of %2$d"
+msgstr "Strona %1$d z %2$d"
+
+msgid "Parent SKU"
+msgstr "SKU produktu nadrzędnego"
+
+msgid "Phase / parent page / child page"
+msgstr "Faza / strona produktów / strona wariantów"
+
+msgid "Previous"
+msgstr "Poprzednia"
+
+msgid "Private, merchant-selected WooCommerce catalog field checks with a resumable private report."
+msgstr "Prywatna lista pól katalogu WooCommerce wybranych przez sprzedawcę z raportem skanu, który można wznowić."
+
+msgid "Product Data Audit"
+msgstr "Audyt danych produktów"
+
+msgid "Product Data Audit needs active WooCommerce 8.9.0 or newer. No scan is available until then."
+msgstr "Audyt danych produktów wymaga aktywnego WooCommerce 8.9.0 lub nowszego. Do tego czasu skan jest niedostępny."
+
+msgid "Product Data Audit requires InnoDB tables for safe resumable scans."
+msgstr "Audyt danych produktów wymaga tabel InnoDB do bezpiecznego wznawiania skanu."
+
+msgid "Product or variation"
+msgstr "Produkt lub wariant"
+
+msgid "Published variation count changed during the scan."
+msgstr "Liczba opublikowanych wariantów zmieniła się podczas skanu."
+
+msgid "Published variations"
+msgstr "Opublikowane warianty"
+
+msgid "Quantity when stock is managed"
+msgstr "Ilość przy zarządzaniu stanem"
+
+msgid "Queued"
+msgstr "W kolejce"
+
+msgid "Removed or unavailable"
+msgstr "Usunięty lub niedostępny"
+
+msgid "Report rows changed during export. No partial CSV was sent."
+msgstr "Wiersze raportu zmieniły się podczas eksportu. Nie wysłano niepełnego CSV."
+
+msgid "Rule selection saved. Start a new scan to apply it."
+msgstr "Zapisano wybór reguł. Uruchom nowy skan, aby go zastosować."
+
+msgid "Running"
+msgstr "W toku"
+
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Save selected rules"
+msgstr "Zapisz wybrane reguły"
+
+msgid "Saved rule is not recognized."
+msgstr "Zapisana reguła nie jest rozpoznawana."
+
+msgid "Scan cancelled. Its partial findings are not a current report."
+msgstr "Skan anulowano. Jego częściowe wyniki nie są aktualnym raportem."
+
+msgid "Scan started. Continue in bounded batches."
+msgstr "Skan rozpoczęty. Kontynuuj w ograniczonych partiach."
+
+msgid "Scan status"
+msgstr "Stan skanu"
+
+msgid "Select and save at least one rule before scanning."
+msgstr "Wybierz i zapisz co najmniej jedną regułę przed skanem."
+
+msgid "Selected rules changed during the scan."
+msgstr "Wybrane reguły zmieniły się podczas skanu."
+
+msgid "Short description"
+msgstr "Krótki opis"
+
+msgid "Simple products"
+msgstr "Produkty proste"
+
+msgid "Start a fresh scan"
+msgstr "Rozpocznij nowy skan"
+
+msgid "Started (UTC)"
+msgstr "Rozpoczęto (UTC)"
+
+msgid "Suggested selection saved. Review it before scanning."
+msgstr "Zapisano proponowany zestaw. Sprawdź go przed skanem."
+
+msgid "Supported parent count changed during the scan."
+msgstr "Liczba obsługiwanych produktów zmieniła się podczas skanu."
+
+msgid "Supported published parents at start"
+msgstr "Obsługiwane opublikowane produkty na początku"
+
+msgid "The action failed. Review the scan status and try a fresh scan."
+msgstr "Operacja nie powiodła się. Sprawdź stan i spróbuj nowego skanu."
+
+msgid "The merchant cancelled this scan."
+msgstr "Sprzedawca anulował ten skan."
+
+msgid "The previous complete report remains visible below as historical or old-policy data. It is not the current report and cannot be exported as current."
+msgstr "Poprzedni ukończony raport pozostaje widoczny jako dane historyczne lub według starych reguł. Nie jest aktualnym raportem i nie można go tak eksportować."
+
+msgid "The saved rule is not recognized."
+msgstr "Zapisana reguła nie jest rozpoznawana."
+
+msgid "The scan committed but could not be read. Reload this page."
+msgstr "Skan zapisano, ale nie można go odczytać. Odśwież stronę."
+
+msgid "The scan is incomplete. The previous complete report remains available; start a fresh scan."
+msgstr "Skan jest niepełny. Poprzedni ukończony raport pozostaje dostępny; rozpocznij nowy skan."
+
+msgid "The scan was created but could not be read. Reload this page."
+msgstr "Skan utworzono, ale nie można go odczytać. Odśwież stronę."
+
+msgid "The starter set checks main images and descriptions on simple items, main images and published children on variable parents, and active prices on simple items and published variations."
+msgstr "Zestaw początkowy sprawdza obrazy główne i opisy produktów prostych, obrazy główne i opublikowane warianty produktów z wariantami oraz aktualne ceny produktów prostych i wariantów."
+
+msgid "This downloadable published variation has no download file."
+msgstr "Ten opublikowany wariant do pobrania nie ma pliku."
+
+msgid "This downloadable simple product has no download file."
+msgstr "Ten produkt prosty do pobrania nie ma pliku."
+
+msgid "This nonvirtual published variation has no effective weight, including inheritance."
+msgstr "Ten opublikowany wariant niewirtualny nie ma efektywnej wagi, także z dziedziczenia."
+
+msgid "This nonvirtual published variation is missing an effective dimension, including inheritance."
+msgstr "Temu opublikowanemu wariantowi niewirtualnemu brakuje efektywnego wymiaru, także z dziedziczenia."
+
+msgid "This nonvirtual simple product has no weight."
+msgstr "Ten produkt prosty niewirtualny nie ma wagi."
+
+msgid "This nonvirtual simple product is missing length, width, or height."
+msgstr "Temu produktowi prostemu niewirtualnemu brakuje długości, szerokości lub wysokości."
+
+msgid "This published simple product has no SKU."
+msgstr "Ten opublikowany produkt prosty nie ma SKU."
+
+msgid "This published simple product has no active price; zero is valid."
+msgstr "Ten opublikowany produkt prosty nie ma aktualnej ceny; zero jest poprawne."
+
+msgid "This published simple product has no full description."
+msgstr "Ten opublikowany produkt prosty nie ma pełnego opisu."
+
+msgid "This published simple product has no main image."
+msgstr "Ten opublikowany produkt prosty nie ma obrazu głównego."
+
+msgid "This published simple product has no short description."
+msgstr "Ten opublikowany produkt prosty nie ma krótkiego opisu."
+
+msgid "This published variable parent has no full description."
+msgstr "Ten opublikowany produkt z wariantami nie ma pełnego opisu."
+
+msgid "This published variable parent has no main image."
+msgstr "Ten opublikowany produkt z wariantami nie ma obrazu głównego."
+
+msgid "This published variable parent has no parent SKU."
+msgstr "Ten opublikowany produkt z wariantami nie ma SKU produktu nadrzędnego."
+
+msgid "This published variable parent has no short description."
+msgstr "Ten opublikowany produkt z wariantami nie ma krótkiego opisu."
+
+msgid "This published variation has no active price; zero is valid."
+msgstr "Ten opublikowany wariant nie ma aktualnej ceny; zero jest poprawne."
+
+msgid "This published variation has no own SKU, even if it displays a parent SKU."
+msgstr "Ten opublikowany wariant nie ma własnego SKU, nawet gdy wyświetla SKU produktu nadrzędnego."
+
+msgid "This run is incomplete. Its findings are withheld from the current report and CSV. Reason:"
+msgstr "Ten skan jest niepełny. Jego wyniki nie są pokazywane jako aktualny raport ani CSV. Powód:"
+
+msgid "This scan is no longer running."
+msgstr "Ten skan już nie trwa."
+
+msgid "This stock-managed published variation has no effective quantity; zero is valid."
+msgstr "Ten opublikowany wariant z zarządzanym stanem nie ma efektywnej ilości; zero jest poprawne."
+
+msgid "This stock-managed simple product has no quantity; zero is valid."
+msgstr "Ten produkt prosty z zarządzanym stanem nie ma ilości; zero jest poprawne."
+
+msgid "This variable parent has no published child variation; this does not test purchasability."
+msgstr "Ten produkt z wariantami nie ma opublikowanego wariantu; to nie sprawdza możliwości zakupu."
+
+msgid "Unknown"
+msgstr "Nieznany"
+
+msgid "Unknown audit action."
+msgstr "Nieznana operacja audytu."
+
+msgid "Unknown field"
+msgstr "Nieznane pole"
+
+msgid "Unsupported published parents of registered types"
+msgstr "Nieobsługiwane opublikowane produkty zarejestrowanych typów"
+
+msgid "Use the audit form to perform this action."
+msgstr "Użyj formularza audytu do wykonania tej operacji."
+
+msgid "Variable parents"
+msgstr "Produkty z wariantami"
+
+msgid "Weight for nonvirtual item"
+msgstr "Waga produktu niewirtualnego"
+
+msgid "Why this qualified"
+msgstr "Dlaczego dotyczy"
+
+msgid "WooCommerce 8.9.0 or newer is required."
+msgstr "Wymagany jest WooCommerce 8.9.0 lub nowszy."
+
+msgid "WooCommerce and InnoDB scan tables are required."
+msgstr "Wymagane są WooCommerce i tabele skanu InnoDB."
+
+msgid "WooCommerce is unavailable."
+msgstr "WooCommerce jest niedostępny."
+
+msgid "WooCommerce product query failed. The scan is incomplete."
+msgstr "Zapytanie o produkty WooCommerce nie powiodło się. Skan jest niepełny."
+
+msgid "WooCommerce returned an invalid product ID."
+msgstr "WooCommerce zwrócił niepoprawny identyfikator produktu."
+
+msgid "You cannot cancel this scan."
+msgstr "Nie możesz anulować tego skanu."
+
+msgid "You cannot continue this product audit."
+msgstr "Nie możesz kontynuować tego audytu produktów."
+
+msgid "You cannot export this report."
+msgstr "Nie możesz eksportować tego raportu."
+
+msgid "You cannot perform this audit action."
+msgstr "Nie możesz wykonać tej operacji audytu."
+
+msgid "You cannot start a product audit."
+msgstr "Nie możesz rozpocząć audytu produktów."
+
+msgid "You cannot view this audit."
+msgstr "Nie możesz wyświetlić tego audytu."
+
+msgid "You cannot view this report."
+msgstr "Nie możesz wyświetlić tego raportu."
+
+msgid "as-scanned, best-effort catalog snapshot"
+msgstr "przybliżony obraz katalogu z chwili skanowania"
+
+msgid "parent"
+msgstr "produkt nadrzędny"

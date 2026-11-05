@@ -1,0 +1,14 @@
+digicyfr-product-data-audit.php
+includes/class-dpda-rules.php
+includes/class-dpda-storage.php
+includes/class-dpda-scan.php
+includes/class-dpda-admin.php
+assets/admin.js
+assets/admin.css
+languages/digicyfr-product-data-audit-pl_PL.po
+languages/digicyfr-product-data-audit-pl_PL.mo
+README.md
+readme.txt
+CHANGELOG.md
+LICENSE
+uninstall.php

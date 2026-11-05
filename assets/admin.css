@@ -1,0 +1,16 @@
+.dpda-wrap { max-width: 1200px; }
+.dpda-wrap section { margin: 1.5rem 0; padding: 1rem; background: #fff; border: 1px solid #dcdcde; }
+.dpda-rule-group { border: 1px solid #8c8f94; margin: .75rem 0; padding: .75rem 1rem; }
+.dpda-rule-group legend { font-weight: 600; padding: 0 .25rem; }
+.dpda-rule-group label { display: block; max-width: 50rem; margin: .45rem 0; }
+.dpda-action { display: inline-block; margin: .25rem .5rem .25rem 0; }
+.dpda-stats { display: grid; grid-template-columns: minmax(10rem, 20rem) 1fr; gap: .4rem 1rem; }
+.dpda-stats dt { font-weight: 600; }
+.dpda-stats dd { margin: 0; overflow-wrap: anywhere; }
+.dpda-inline { padding: .75rem 1rem; margin: 1rem 0; }
+.dpda-table-scroll { max-width: 100%; overflow-x: auto; }
+.dpda-table-scroll table { min-width: 54rem; }
+.dpda-table-scroll caption { text-align: left; padding: .5rem; font-weight: 600; }
+.dpda-pagination { display: flex; align-items: center; gap: .75rem; margin: .75rem 0; }
+.dpda-wrap :is(a, button, input):focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
+@media (max-width: 600px) { .dpda-stats { grid-template-columns: 1fr; } .dpda-rule-group { padding: .5rem; } }
