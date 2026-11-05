@@ -56,3 +56,10 @@ This automated check did not find a plugin-owned defect, so the `v0.1.0` ZIP, ta
 ## Stable self-hosted release decision — 2026-11-05
 
 The exact public ZIP passed the published SHA-256 sidecar check (`8268f9d137fe5dfe0574110b3d8441049a5e22d7528df08aec5fe0bfc541f25e`) and source-byte comparison. The protected `release/0.1.0` branch and annotated `v0.1.0` tag point to the same frozen release commit, and their CI passed. Main-branch CI and the automated browser and axe checks passed before promotion. This supports a stable self-hosted GitHub release. The ZIP, tag, release branch and attached assets were preserved. Human screen-reader testing and review on a representative merchant catalog remain unperformed; axe and browser checks do not establish WCAG conformance.
+
+## Live Digicyfr website delivery — 5 November 2026
+
+- The live [English](https://www.digicyfr.com/en/wordpress-plugins/digicyfr-product-data-audit) and [Polish](https://www.digicyfr.com/pl/wordpress-plugins/digicyfr-product-data-audit) pages both returned HTTP 200, with the current stable v0.1.0 ZIP link, matching SHA-256, screenshot and canonical metadata; neither carried `noindex`. Both URLs appeared in the live sitemap.
+- The live screenshot URL `/images/wordpress-plugins/digicyfr-product-data-audit.png` returned a PNG. `https://digicyfr.com/plugins/digicyfr-product-data-audit/` followed the `Update URI` redirect to the English detail page.
+- Following the ZIP and checksum links from the live pages returned the unchanged public GitHub release asset and sidecar. ZIP SHA-256: `8268f9d137fe5dfe0574110b3d8441049a5e22d7528df08aec5fe0bfc541f25e`. The same public ZIP hash had already passed the clean install and plugin-specific checks in this QA record; no new clean install was run for this site-delivery audit.
+- Website production commit: [`9dfb9728`](https://github.com/digicyfr/cyfr/commit/9dfb9728c92e7d4437cfe2f8368b54ce917c0008). Distribution remains a manual ZIP install/update; this is not a WordPress.org or automatic-update claim. Human screen-reader and representative-host checks remain follow-up work for broader claims.
