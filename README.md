@@ -2,6 +2,16 @@
 
 Free GPL WordPress plugin for a **merchant-selected, read-only** check of empty WooCommerce product fields. Choose each rule yourself, scan the catalog in bounded manual batches, review one row per missing selected field, and download a guarded CSV. The plugin never edits products, reads orders or customers, sends data away, scores the catalog, or claims a feed, SEO, tax, shipping, or sales verdict.
 
+## Website guides and stable release
+
+- [Product Data Audit for WooCommerce: English overview and installation](https://www.digicyfr.com/en/wordpress-plugins/digicyfr-product-data-audit)
+- [Przegląd danych produktów WooCommerce: opis i instalacja po polsku](https://www.digicyfr.com/pl/wordpress-plugins/digicyfr-product-data-audit)
+- [Stable v0.1.0 release, ZIP and checksum](https://github.com/digicyfr/digicyfr-product-data-audit/releases/tag/v0.1.0)
+
+<a href="https://www.digicyfr.com/en/wordpress-plugins/digicyfr-product-data-audit"><img src="https://www.digicyfr.com/images/wordpress-plugins/digicyfr-product-data-audit.png" alt="WooCommerce product data audit report with selected findings" width="280"></a>
+
+_Example screenshot from a disposable test site._
+
 ## Install and use
 
 Upload the versioned ZIP at **Plugins → Add New → Upload Plugin** with WooCommerce active. The plugin declares WordPress 7.1+, PHP 8.3+, and WooCommerce 8.9.0+; see the QA record for exact tested versions. A dependency notice appears if WooCommerce is inactive or below the tested floor.
